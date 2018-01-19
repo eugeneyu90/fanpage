@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Fan Site - About</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
+    crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous">
+  <link href="styles.css" type="text/css" rel="stylesheet">
+  <!--Custom Stylesheet -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4"
+    crossorigin="anonymous"></script>
+
+
+  <script>
+    var player;
+      function onYouTubeIframeAPIReady() {
+        player = new YT.Player('player', {
+          height: '390',
+          width: '640',
+          videoId: 'M7lc1UVf-VE',
+          events: {
+            'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+          }
+        });
+      }
+  </script>
+</head>
+
+<body class="bg-black">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="index.html">Fan Page</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="about.html">About
+            <span class="sr-only">(current)</span>
+            <!--   Assistive Technology Implementation for screenreaders, etc
+                    https://v4-alpha.getbootstrap.com/getting-started/accessibility/
+                    https://a11yproject.com/posts/skip-nav-links/ -->
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="characters.html">Characters</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="seasons.html">Seasons</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <header class="container-fluid p-0">
+    <iframe class="embed-responsive video-full" id="player" type="text/html" src="http://www.youtube.com/embed/M7lc1UVf-VE?autoplay=1&controls=0&enablejsapi=1&origin=http://example.com" frameborder="0"></iframe>
+  </header>
+
+  <aside>
+
+  </aside>
+  <section>
+
+  <section class="container bg-dark text-white mw-100 p-5">
+    <div class="row">
+      <div class="col">
+        <h1 id="about" class="display-3">What is _____?</h1>
+        <p class="lead"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas culpa nihil, minus minima qui nulla harum animi dolorem
+          nesciunt autem sint adipisci, a eligendi id explicabo esse exercitationem natus blanditiis. Lorem ipsum dolor, sit
+          amet consectetur adipisicing elit. Laborum libero error totam? Et pariatur illo possimus saepe quam illum nulla ipsa
+          asperiores dolores obcaecati, assumenda natus dolorum necessitatibus minus quia? Lorem ipsum dolor sit, amet consectetur
+          adipisicing elit. Accusamus saepe rem voluptates porro obcaecati ea asperiores ratione, fuga ex numquam eos, id quis
+          nulla ad perferendis facilis inventore officiis hic.</p>
+      </div>
+    </div>
+  </section>
+
+  </section>
+  <footer>
+
+  </footer>
+</body>
+
+</html>

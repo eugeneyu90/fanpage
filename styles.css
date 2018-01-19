@@ -1,0 +1,72 @@
+@media (max-width: 500px) {
+  .table-text {
+    font-size: 3vw;
+  }
+}
+@media (max-width: 320px) {
+  .table-text {
+    font-size: 2.5vw;
+  }
+}
+.navbar-opacity {
+  opacity: 0.95;
+
+}
+.jumbotron-home {
+  background-image: url("jumbotron_image.jpeg");
+  background-repeat: no-repeat;
+  width: 100%;
+  
+}
+
+.video-full {
+  max-width: 100%;
+  overflow: visible;
+  height: 100vh;
+}
+.bg-blue {
+  background-color: rgb(19, 61, 109);
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.book-image {
+  height: 100%;
+  width: 100%;
+}
+
+.accordion-theme {
+  background-color: rgb(54, 54, 54);
+}
+
+tr:hover {
+  background-color: rgb(119, 119, 119);
+  color: black;
+}
+
+
+.no-dec {
+  text-decoration: none;
+}
+
+/* .thumbnail {
+  padding: 50px;
+  overflow: hidden;
+} */
+
+#char1 {
+  background-image: url("images/jon_snow.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image-overlay {
+  background-color: black;
+  opacity: 0;
+}
+
+.image-overlay:hover {
+  opacity: 0.5;
+} 

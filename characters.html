@@ -19,8 +19,12 @@
 </head>
 
 <body class="bg-black">
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <a class="navbar-brand" href="index.html">Fan Page</a>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top navbar-opacity">
+    <div class="navbar-logo-bg">
+      <a class="navbar-brand" href="index.html">
+        <img class="logo" src="images/got-logo.jpg">
+      </a>
+    </div>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
       aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -35,11 +39,13 @@
                     https://a11yproject.com/posts/skip-nav-links/ -->
           </a>
         </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="characters.html">Characters</a>
+        <li class="nav-item">
+          <a class="nav-link active" href="characters.html">Characters</a>
+          <!--music.html -->
         </li>
         <li class="nav-item">
           <a class="nav-link" href="seasons.html">Seasons</a>
+          <!-- tours.html -->
         </li>
       </ul>
       <form class="navbar-form navbar-left" role="search">
@@ -49,92 +55,31 @@
       </form>
     </div>
   </nav>
-  <header class="jumbotron jumbotron-fluid pt-2 m-0  bg-black">
+  <header class="py-3"></header>
+  <header class="jumbotron jumbotron-fluid pt-5 m-0 bg-black">
     <div class="container-fluid text-center text-white">
-      <h1 class="display-3">Characters of Westeros</h1>
+      <h1 class="display-3">Characters of GOT</h1>
     </div>
   </header>
   <section class="container-fluid">
-    <div class="row">
+    <div class="row bg-black">
       <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 py-3">
-        <span id="char1" class="img-fluid mw-100 image-overlay bg-black text-white">Click to expand</span>
-        <!-- <img class="img-fluid mw-100 " src="images/band.jpg"> -->
+        <img class="img-thumbnail" src="images/jon-snow.png">
       </div>
       <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 py-3">
-        <img class="img-fluid mw-100 " src="images/couple.jpg">
+        <img class="img-thumbnail" src="images/arya-stark.jpg">
       </div>
       <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 py-3">
-        <img class="img-fluid mw-100 " src="images/deer.jpg">
+        <img class="img-thumbnail" src="images/daenerys-targaryan.jpg">
       </div>
       <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 py-3">
-        <img class="img-fluid mw-100 " src="images/elephant.jpg">
+        <img class="img-thumbnail" src="images/joffrey-lannister.jpg">
       </div>
       <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 py-3">
-        <img class="img-fluid mw-100 " src="images/fox.jpg">
+        <img class="img-thumbnail" src="images/cersei-lannister.png">
       </div>
       <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 py-3">
-        <img class="img-fluid mw-100 " src="images/moon.jpg">
-      </div>
-    </div>
-  </section>
-  <section class="container-fluid ">
-    <div class="row">
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 py-3">
-        <div class="card bg-black text-center text-white ">
-          <div id="char1" class="card-img-top py-5">
-            <span class="image-overlay p-5">Click Me</span>
-          </div>
-          <!-- <img class="card-img-top thumbnail" src="images/jon_snow.png" alt="Card image cap"> -->
-          <div class="card-block">
-            <h4 class="card-title">Character1</h4>
-            <p class="card-text">Character Description</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 py-3">
-        <div class="card text-center">
-          <img class="card-img-top" src="..." alt="Card image cap">
-          <div class="card-block">
-            <h4 class="card-title">Character2</h4>
-            <p class="card-text">Character Description</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 py-3">
-        <div class="card text-center">
-          <img class="card-img-top" src="..." alt="Card image cap">
-          <div class="card-block">
-            <h4 class="card-title">Character3</h4>
-            <p class="card-text">Character Description</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 py-3">
-        <div class="card text-center">
-          <img class="card-img-top" src="..." alt="Card image cap">
-          <div class="card-block">
-            <h4 class="card-title">Character4</h4>
-            <p class="card-text">Character Description</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 py-3">
-        <div class="card text-center">
-          <img class="card-img-top" src="..." alt="Card image cap">
-          <div class="card-block">
-            <h4 class="card-title">Character5</h4>
-            <p class="card-text">Character Description</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 py-3">
-        <div class="card text-center">
-          <img class="card-img-top" src="..." alt="Card image cap">
-          <div class="card-block">
-            <h4 class="card-title">Character6</h4>
-            <p class="card-text">Character Description</p>
-          </div>
-        </div>
+        <img class="img-thumbnail" src="images/tyrion-lannister.jpg">
       </div>
     </div>
   </section>
